@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+
+  <body class="bg-dark">
+    <!-- <h1>HOMEPAGE</h1> -->
+    <!-- nav section start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Adventure</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about/">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Others
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="contact/">Contact</a></li>
+                  <li><a class="dropdown-item" href="gallery/">Gallery</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="sosmed/">Social Media</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- nav section end-->
+
+    <!-- first layout start-->
+    <div class="container-fluid bg-dark text text-light" style="height: 100%">
+      <!-- carousel images -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/1mountains_lake_tops_top_view_119133_1920x1080.jpg" class="d-block w-100" alt="mountains images" style="height:500px;">
+            <div class="carousel-caption">
+              <h5>Mountain Lake Virginia 24128, USA
+              </h5>
+              <p>Tarn adalah danau, kolam, atau kolam gunung proglasial, yang terbentuk di arena yang digali oleh gletser.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/2temple_mountains_lake_127937_1920x1080.jpg" class="d-block w-100" alt="mountains lake images" style="height:500px;">
+            <div class="carousel-caption">
+              <h5>Mount Temple Alberta, Canada.</h5>
+              <p>Puncaknya mendominasi lanskap barat di sepanjang Trans-Canada Highway dari Castle Junction hingga Lake Louise.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/3tent_starry_sky_night_tourism_119523_1920x1080.jpg" class="d-block w-100" alt="tent starry images" style="height:500px;">
+            <div class="carousel-caption">
+              <h5>The Northern Lights Star, Greenland.</h5>
+              <p>Aurora, juga dikenal sebagai lampu kutub, adalah tampilan cahaya alami di langit Bumi, terutama terlihat di daerah lintang tinggi.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- end carousel images-->
+        <div class="row text-center align-items-center mt-4">
+          <div class="col-12">
+            <img src="assets/PngItem_786293.png" alt="profile img" style="height: 150px;" style="width:150px">
+            <h3 class="mt-3">WELLCOME TO MY ADVENTURE</h3>
+            <i>Sudah menjelajahi lebih dari <span style="color:coral;">100+</span> negara dunia</i>
+        </div>
+        <!-- card-->
+        <div class="row text-dark mt-3">
+          <div class="col-sm-6 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Ikut Bersama Saya</h5>
+                <p class="card-text">Ikuti saya pergi menjelajahi dunia.</p>
+                <a href="#" class="btn btn-dark d-block">Ikuti</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 g-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-center">Hubungi Saya</h5>
+                <p class="card-text">Informasi lebih lanjut silahkan hubungi saya.</p>
+                <a href="#" class="btn btn-dark d-block">Hubungi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end card-->
+    </div>
+    <!-- first layout end-->
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+
+</html>
